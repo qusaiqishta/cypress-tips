@@ -1,0 +1,19 @@
+{
+  "name": "cypress-tips",
+  "version": "1.0.0",
+  "description": "practicing cypress advanced commands",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Qusai Qishta",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.8.0",
+    "cypress-catch-async-tests": "^1.0.1",
+    "cypress-if": "^1.8.0"
+  },
+  "dependencies": {
+    "promise": "^8.2.0"
+  }
+}
