@@ -9,11 +9,14 @@
   "author": "Qusai Qishta",
   "license": "ISC",
   "devDependencies": {
+    "axe-core": "^4.4.3",
     "cypress": "^10.8.0",
+    "cypress-axe": "^1.0.0",
     "cypress-catch-async-tests": "^1.0.1",
     "cypress-if": "^1.8.0"
   },
   "dependencies": {
+    "lambdatest-cypress-cli": "^3.0.1",
     "promise": "^8.2.0"
   }
 }
