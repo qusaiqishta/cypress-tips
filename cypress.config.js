@@ -3,9 +3,13 @@ const { defineConfig } = require("cypress");
 module.exports = defineConfig({
   e2e: {
     setupNodeEvents(on, config) {
-      // implement node event listeners here
+      on('task',{
+        randomNumber(){
+          return Math.floor(Math.random()*10)
+        }
+      })
     },
     'run_settings':  { network: true },
-    baseUrl:'http://localhost:3000/'
+    baseUrl:'http://localhost:3000/',
   },
 });
